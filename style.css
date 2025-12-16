@@ -1,0 +1,156 @@
+.attribution {
+  position: fixed;
+  bottom: 0;
+}
+
+html {
+  background-color: hsl(221, 100%, 96%);
+}
+
+body {
+  border-radius: 50px;
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+.box1 {
+  width: 50%;
+  text-align: center;
+  padding: 5px;
+  border-radius: 20px;
+  margin: 0;
+  background: linear-gradient(
+    to bottom,
+    hsl(252, 100%, 67%),
+    hsl(241, 81%, 54%)
+  );
+}
+
+.box2 {
+  width: 50%;
+  padding: 10px;
+
+  background-color: white;
+}
+
+.p1 {
+  text-align: center;
+  color: aliceblue;
+  margin: 0;
+}
+#seventy {
+  color: aliceblue;
+  width: 20vw;
+  border-radius: 100%;
+
+  padding: 30px;
+
+  background: radial-gradient(
+    circle,
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+}
+#pone {
+  margin-bottom: 5px;
+}
+#summary {
+  text-align: start;
+}
+
+.sp {
+  display: flex;
+  align-items: center;
+}
+.right {
+  margin-left: auto;
+}
+
+.card {
+  display: flex;
+  width: 700px; /* optional */
+  border-radius: 20px; /* 👈 THIS */
+  overflow: hidden; /* 🔥 VERY IMPORTANT */
+  background: white;
+}
+
+#hun {
+  margin-top: 0px;
+}
+
+#reaction {
+  border: 0;
+  background-color: rgba(238, 56, 56, 0.149);
+  border-radius: 7px;
+
+  padding: 10px;
+}
+#Memory {
+  background-color: rgba(255, 255, 0, 0.185);
+  border-radius: 7px;
+  padding: 10px;
+}
+
+#Verbal {
+  background-color: rgba(0, 255, 255, 0.16);
+  border-radius: 7px;
+  padding: 10px;
+}
+#Visual {
+  background-color: rgba(0, 0, 255, 0.192);
+  border-radius: 7px;
+  padding: 10px;
+}
+button {
+  border-radius: 7px;
+  padding: 10px;
+}
+#Continue {
+  color: aliceblue;
+  background-color: rgb(12, 12, 80);
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+  border-radius: 20px;
+  padding: 10px;
+}
+.inside {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box1,
+.box2 {
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .card {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    flex-direction: column;
+  }
+  html {
+  }
+  .box1,
+  .box2 {
+    width: 100%;
+  }
+  .box1 {
+    margin: 0;
+    padding: 0;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+  }
+  .box2 {
+    align-items: center;
+    margin-right: 100px;
+    margin: 0;
+    padding: 1px;
+  }
+}
